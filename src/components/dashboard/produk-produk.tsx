@@ -6,54 +6,60 @@ import {
     TableCell,
     TableHead,
     TableRow,
-    Chip
+    Chip,
+    Avatar,
+    Button
 } from '@mui/material';
-import DashboardCard from '../../../src/components/shared/DashboardCard';
+import DeleteIcon from '@mui/icons-material/Delete';
+import IconButton from '@mui/material/IconButton';
+import Stack from '@mui/material/Stack';
+import DashboardCard from '../shared/DashboardCard';
+import Link from 'next/link';
+
+export const getInitials = (name = '') => name
+  .replace(/\s+/, ' ')
+  .split(' ')
+  .slice(0, 2)
+  .map((v) => v && v[0].toUpperCase())
+  .join('');
 
 const products = [
     {
         id: "1",
+        avatar: "https://cdn.discordapp.com/attachments/1055060226858029076/1055060446530523216/airforce_1.png",
         name: "Sunil Joshi",
-        post: "Web Designer",
-        pname: "Elite Admin",
-        priority: "Low",
-        pbg: "primary.main",
-        budget: "3.9",
+        kategori: "Man",
+        harga: "13.000",
     },
     {
         id: "2",
+        avatar: "https://cdn.discordapp.com/attachments/1055060226858029076/1055060446530523216/airforce_1.png",
         name: "Andrew McDownland",
-        post: "Project Manager",
-        pname: "Real Homes WP Theme",
-        priority: "Medium",
-        pbg: "secondary.main",
-        budget: "24.5",
+        kategori: "Man",
+        harga: "23.000",
     },
     {
         id: "3",
+        avatar: "https://cdn.discordapp.com/attachments/1055060226858029076/1055060446530523216/airforce_1.png",
         name: "Christopher Jamil",
-        post: "Project Manager",
-        pname: "MedicalPro WP Theme",
-        priority: "High",
-        pbg: "error.main",
-        budget: "12.8",
+        kategori: "Man",
+        harga: "16.000",
     },
     {
         id: "4",
+        avatar: "https://cdn.discordapp.com/attachments/1055060226858029076/1055060446530523216/airforce_1.png",
         name: "Nirav Joshi",
-        post: "Frontend Engineer",
-        pname: "Hosting Press HTML",
-        priority: "Critical",
-        pbg: "success.main",
-        budget: "2.4",
+        kategori: "Man",
+        harga: "33.000",
     },
 ];
 
 
-const ProductPerformance = () => {
+const ProdukProduk = () => {
     return (
 
         <DashboardCard title="Produk Baru">
+            <Button variant="contained">Tambah Produk</Button>
             <Box sx={{ overflow: 'auto', width: { xs: '280px', sm: 'auto' } }}>
                 <Table
                     aria-label="simple table"
@@ -66,27 +72,22 @@ const ProductPerformance = () => {
                         <TableRow>
                             <TableCell>
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Id
+                                    No
                                 </Typography>
                             </TableCell>
                             <TableCell>
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Assigned
+                                    Nama Produk
                                 </Typography>
                             </TableCell>
                             <TableCell>
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Name
-                                </Typography>
-                            </TableCell>
-                            <TableCell>
-                                <Typography variant="subtitle2" fontWeight={600}>
-                                    Priority
+                                    Kategori
                                 </Typography>
                             </TableCell>
                             <TableCell align="right">
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Budget
+                                    Action
                                 </Typography>
                             </TableCell>
                         </TableRow>
@@ -105,45 +106,30 @@ const ProductPerformance = () => {
                                     </Typography>
                                 </TableCell>
                                 <TableCell>
-                                    <Box
-                                        sx={{
-                                            display: "flex",
-                                            alignItems: "center",
-                                        }}
+                                    <Stack
+                                        alignItems="center"
+                                        direction="row"
+                                        spacing={2}
                                     >
-                                        <Box>
-                                            <Typography variant="subtitle2" fontWeight={600}>
-                                                {product.name}
-                                            </Typography>
-                                            <Typography
-                                                color="textSecondary"
-                                                sx={{
-                                                    fontSize: "13px",
-                                                }}
-                                            >
-                                                {product.post}
-                                            </Typography>
-                                        </Box>
-                                    </Box>
-                                </TableCell>
-                                <TableCell>
-                                    <Typography color="textSecondary" variant="subtitle2" fontWeight={400}>
-                                        {product.pname}
-                                    </Typography>
+                                        <Avatar src={product.avatar}>
+                                        {getInitials(product.name)}
+                                        </Avatar>
+                                        <Typography variant="subtitle2">
+                                        {product.name}
+                                        </Typography>
+                                    </Stack>
                                 </TableCell>
                                 <TableCell>
                                     <Chip
-                                        sx={{
-                                            px: "4px",
-                                            backgroundColor: product.pbg,
-                                            color: "#fff",
-                                        }}
                                         size="small"
-                                        label={product.priority}
+                                        label={product.kategori}
                                     ></Chip>
                                 </TableCell>
                                 <TableCell align="right">
-                                    <Typography variant="h6">${product.budget}k</Typography>
+                                    <Link href={'/produk-toko/edit/1'}> <Button variant="contained" size="small">Edit</Button> </Link>
+                                    <IconButton aria-label="delete" color='error'>
+                                        <DeleteIcon /> 
+                                    </IconButton>
                                 </TableCell>
                             </TableRow>
                         ))}
@@ -154,4 +140,4 @@ const ProductPerformance = () => {
     );
 };
 
-export default ProductPerformance;
+export default ProdukProduk;

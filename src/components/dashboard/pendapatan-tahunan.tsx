@@ -5,9 +5,9 @@ import { useTheme } from '@mui/material/styles';
 import { Grid, Stack, Typography, Avatar } from '@mui/material';
 import { IconArrowUpLeft } from '@tabler/icons-react';
 
-import DashboardCard from '../../../src/components/shared/DashboardCard';
+import DashboardCard from '../shared/DashboardCard';
 
-const YearlyBreakup = () => {
+const PendapatanTahunan = () => {
   // chart color
   const theme = useTheme();
   const primary = theme.palette.primary.main;
@@ -114,4 +114,4 @@ const YearlyBreakup = () => {
   );
 };
 
-export default YearlyBreakup;
+export default PendapatanTahunan;

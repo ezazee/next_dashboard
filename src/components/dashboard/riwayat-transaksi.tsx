@@ -1,5 +1,5 @@
 import React from 'react';
-import DashboardCard from '../../../src/components/shared/DashboardCard';
+import DashboardCard from '../shared/DashboardCard';
 import {
   Timeline,
   TimelineItem,
@@ -12,7 +12,7 @@ import {
 } from '@mui/lab';
 import { Link, Typography } from '@mui/material';
 
-const RecentTransactions = () => {
+const RiwayatTransaksi = () => {
   return (
     <DashboardCard title="Riwayat Transaksi">
       <>
@@ -89,4 +89,4 @@ const RecentTransactions = () => {
   );
 };
 
-export default RecentTransactions;
+export default RiwayatTransaksi;

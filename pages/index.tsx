@@ -3,12 +3,11 @@ import { Grid, Box } from '@mui/material';
 import PageContainer from '../src/components/container/PageContainer';
 
 // components
-import SalesOverview from '../src/components/dashboard/SalesOverview';
-import YearlyBreakup from '../src/components/dashboard/YearlyBreakup';
-import RecentTransactions from '../src/components/dashboard/RecentTransactions';
-import ProductPerformance from '../src/components/dashboard/ProductPerformance';
-import Blog from '../src/components/dashboard/Blog';
-import MonthlyEarnings from '../src/components/dashboard/MonthlyEarnings';
+import KenaikanPenjualan from '../src/components/dashboard/kenaikan-penjualan';
+import PendapatanTahunan from '../src/components/dashboard/pendapatan-tahunan';
+import RiwayatTransaksi from '../src/components/dashboard/riwayat-transaksi';
+import ProdukDashboard from '../src/components/dashboard/produk-dashboard';
+import PendapatanBulanan from '../src/components/dashboard/pendapatan-bulanan';
 import FullLayout from '../src/layouts/full/FullLayout';
 
 export default function Home() {
@@ -17,26 +16,23 @@ export default function Home() {
       <Box>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={8}>
-            <SalesOverview />
+            <KenaikanPenjualan />
           </Grid>
           <Grid item xs={12} lg={4}>
             <Grid container spacing={3}>
               <Grid item xs={12}>
-                <YearlyBreakup />
+                <PendapatanTahunan />
               </Grid>
               <Grid item xs={12}>
-                <MonthlyEarnings />
+                <PendapatanBulanan />
               </Grid>
             </Grid>
           </Grid>
           <Grid item xs={12} lg={4}>
-            <RecentTransactions />
+            <RiwayatTransaksi />
           </Grid>
           <Grid item xs={12} lg={8}>
-            <ProductPerformance />
-          </Grid>
-          <Grid item xs={12}>
-            <Blog />
+            <ProdukDashboard />
           </Grid>
         </Grid>
       </Box>
