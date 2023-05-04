@@ -9,7 +9,7 @@ type Props = {
   cardheading?: string | JSX.Element;
   headtitle?: string | JSX.Element;
   headsubtitle?: string | JSX.Element;
-  children?: JSX.Element;
+  children?: JSX.Element|JSX.Element[];
   middlecontent?: string | JSX.Element;
 };
 
