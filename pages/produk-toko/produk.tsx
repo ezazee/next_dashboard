@@ -7,7 +7,7 @@ import ProdukProduk from '../../src/components/dashboard/produk-produk';
 
 const Produk = () => {
   return (
-    <PageContainer title="Typography" description="this is Typography">
+    <PageContainer title="Produk Toko" description="Produk Produk Toko">
 
       <Grid xs={12} lg={8}>
             <ProdukProduk />

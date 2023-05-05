@@ -59,7 +59,7 @@ const ProdukProduk = () => {
     return (
 
         <DashboardCard title="Produk Baru">
-            <Button variant="contained">Tambah Produk</Button>
+            <Button className="bg-green-900" variant="contained">Tambah Produk</Button>
             <Box sx={{ overflow: 'auto', width: { xs: '280px', sm: 'auto' } }}>
                 <Table
                     aria-label="simple table"
@@ -126,7 +126,7 @@ const ProdukProduk = () => {
                                     ></Chip>
                                 </TableCell>
                                 <TableCell align="right">
-                                    <Link href={'/produk-toko/edit/1'}> <Button variant="contained" size="small">Edit</Button> </Link>
+                                    <Link href={'/produk-toko/edit/1'}> <Button className='bg-green-900' variant="contained" size="small">Edit</Button> </Link>
                                     <IconButton aria-label="delete" color='error'>
                                         <DeleteIcon /> 
                                     </IconButton>

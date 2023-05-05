@@ -36,6 +36,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
           component="label"
           htmlFor="username"
           mb="5px"
+          defaultValue="userexample"
         >
           Username
         </Typography>
@@ -67,7 +68,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
         </FormGroup>
         <Typography
           component={Link}
-          href="/"
+          href="/authentication/login"
           fontWeight="500"
           sx={{
             textDecoration: "none",

@@ -36,7 +36,7 @@ const AuthRegister = ({ title, subtitle, subtext }: registerType) => (
                 <CustomTextField id="password" variant="outlined" fullWidth />
             </Stack>
             <Button color="primary" variant="contained" size="large" fullWidth component={Link} href="/authentication/login">
-                Sign Up
+                Register
             </Button>
         </Box>
         {subtitle}
