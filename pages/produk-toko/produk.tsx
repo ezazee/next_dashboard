@@ -1,4 +1,4 @@
-import type { ReactElement } from 'react';
+import { ReactElement, useEffect, useState } from 'react';
 import FullLayout from '../../src/layouts/full/FullLayout';
 import { Grid } from '@mui/material';
 import PageContainer from '../../src/components/container/PageContainer';
@@ -10,7 +10,7 @@ const Produk = () => {
     <PageContainer title="Produk Toko" description="Produk Produk Toko">
 
       <Grid xs={12} lg={8}>
-            <ProdukProduk />
+          <ProdukProduk />
       </Grid>
     </PageContainer>
   );

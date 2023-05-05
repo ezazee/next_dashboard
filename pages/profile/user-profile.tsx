@@ -18,35 +18,16 @@ import {
 
 const user = {
   avatar: '/images/profile/user-1.jpg',
-  city: 'Bali',
-  name: 'Nama Kamu',
+  city: 'Mataram',
+  name: 'Admin Sirace',
   jobdesk: 'Developer'
 };
 
-const states = [
-  {
-    value: 'alabama',
-    label: 'Alabama'
-  },
-  {
-    value: 'new-york',
-    label: 'New York'
-  },
-  {
-    value: 'san-francisco',
-    label: 'San Francisco'
-  },
-  {
-    value: 'los-angeles',
-    label: 'Los Angeles'
-  }
-];
-
 const UserProfile = () => {
   const [values, setValues] = useState({
-    firstName: 'Nama',
-    lastName: 'Kamu',
-    email: 'example1@email.com',
+    firstName: 'Admin',
+    lastName: 'Sirace',
+    email: 'sirace@email.com',
     phone: '0853453493',
   });
 

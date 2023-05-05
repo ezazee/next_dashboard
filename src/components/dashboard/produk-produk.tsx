@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
     Typography, Box,
     Table,
@@ -15,6 +15,8 @@ import IconButton from '@mui/material/IconButton';
 import Stack from '@mui/material/Stack';
 import DashboardCard from '../shared/DashboardCard';
 import Link from 'next/link';
+import { BackendFetch } from '../../../lib/axios';
+import { getSystemErrorMap } from 'util';
 
 export const getInitials = (name = '') => name
   .replace(/\s+/, ' ')
@@ -55,9 +57,9 @@ const products = [
 ];
 
 
+
 const ProdukProduk = () => {
     return (
-
         <DashboardCard title="Produk Baru">
             <Button className="bg-green-900" variant="contained">Tambah Produk</Button>
             <Box sx={{ overflow: 'auto', width: { xs: '280px', sm: 'auto' } }}>
