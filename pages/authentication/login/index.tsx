@@ -46,7 +46,7 @@ const Login2 = () => {
               <AuthLogin
                 subtext={
                   <Typography variant="subtitle1" textAlign="center" color="textSecondary" mb={1}>
-                    Your Social Campaigns
+                    Login Dashboard Sirace
                   </Typography>
                 }
                 subtitle={

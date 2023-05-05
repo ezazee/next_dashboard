@@ -1,4 +1,5 @@
 import type { ReactElement, ReactNode } from "react";
+import '../public/css/global.css'
 
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -31,7 +32,7 @@ const MyApp = (props: MyAppProps) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>Modernize NextJs Free Admin template</title>
+        <title>Sirace</title>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

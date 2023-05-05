@@ -103,7 +103,7 @@ const appsLink = [
     avatar: ddIcon2
   },
   {
-    href: '/',
+    href: '/dashboard',
     title: 'Invoice App',
     subtext: 'Messages & Emails',
     avatar: ddIcon3
@@ -133,7 +133,7 @@ const appsLink = [
     avatar: ddIcon7
   },
   {
-    href: '/',
+    href: '/dashboard',
     title: 'Kanban Application',
     subtext: 'To-do and Daily tasks',
     avatar: ddIcon8

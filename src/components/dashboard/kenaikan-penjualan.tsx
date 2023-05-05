@@ -80,11 +80,11 @@ const KenaikanPenjualan = () => {
     };
     const seriescolumnchart: any = [
         {
-            name: 'Eanings this month',
+            name: 'Produk Terjual Pada Bulan Ini',
             data: [355, 390, 300, 350, 390, 180, 355, 390],
         },
         {
-            name: 'Expense this month',
+            name: 'Produk Retur Bulan Ini',
             data: [280, 250, 325, 215, 250, 310, 280, 250],
         },
     ];

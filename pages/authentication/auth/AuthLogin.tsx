@@ -80,15 +80,15 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
     </Stack>
     <Box>
       <Button
-        color="primary"
+        className="bg-green-900"
         variant="contained"
         size="large"
         fullWidth
         component={Link}
-        href="/"
+        href="/dashboard"
         type="submit"
       >
-        Sign In
+        Login
       </Button>
     </Box>
     {subtitle}
