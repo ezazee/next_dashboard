@@ -1,0 +1,648 @@
+{
+  "shoes": [
+    {
+      "id": "z5h9d6sm",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104096779676422174/2Q.png",
+      "name": "Originals x Human Made Solar Hu",
+      "category": "men",
+      "description": "The Adidas Originals x Human Made Solar Hu Shoes are a collaboration between Adidas and Japanese streetwear brand Human Made. The shoes feature a colorful and eye-catching design with a breathable mesh upper and a responsive boost™ midsole. The shoes are perfect for streetwear enthusiasts and fans of both brands.",
+      "price": 150,
+      "sizes": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5"
+      ],
+      "colors": [
+        {
+          "name": "White",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Red",
+          "color_hash": "#FF0000"
+        },
+        {
+          "name": "Blue",
+          "color_hash": "#0000FF"
+        },
+        {
+          "name": "Green",
+          "color_hash": "#00FF00"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/W2hCKLxvPvM"
+    },
+    {
+      "id": "4nd3l22n",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104096557638365274/9k.png",
+      "name": "Futurecraft Loop 2.0",
+      "category": "men",
+      "description": "The Adidas Futurecraft Loop 2.0 Shoes are made with recycled materials and are designed for a sustainable and eco-friendly lifestyle. The shoes feature a unique construction that allows them to be fully recycled and made into new shoes at the end of their life cycle. The shoes have a sleek and modern design and are perfect for those who want to make a positive impact on the environment.",
+      "price": 170,
+      "sizes": [
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5"
+      ],
+      "colors": [
+        {
+          "name": "White",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "Grey",
+          "color_hash": "#808080"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/6tILJk9X8u8"
+    },
+    {
+      "id": "b8fjg34k",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104095231172956291/2Q.png",
+      "name": "NMD R1 Primeknit",
+      "category": "women",
+      "description": "The Adidas NMD_R1 Primeknit Shoes feature a snug and comfortable fit with a breathable and flexible Primeknit upper. The shoes are designed with a responsive boost™ midsole and a durable rubber outsole that provides excellent traction. The shoes are perfect for both athletic and casual wear, and are available in a variety of colors.",
+      "price": 140,
+      "sizes": ["5", "5.5", "6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5"],
+      "colors": [
+        {
+          "name": "White",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "Pink",
+          "color_hash": "#FFC0CB"
+        },
+        {
+          "name": "Blue",
+          "color_hash": "#0000FF"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/7IwxZl98iHc"
+    },
+    {
+      "id": "3jg9dhe5",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104094618922008678/Z.png",
+      "name": "Women's Winter Boots",
+      "category": "women",
+      "description": "These women's winter boots are perfect for cold and snowy weather. They have a waterproof leather upper and a warm lining to keep your feet dry and comfortable. The boots feature a lace-up closure and come in a range of sizes to fit any foot size. They are available in a variety of colors to match any winter outfit.",
+      "price": 150,
+      "sizes": ["5", "6", "7", "8", "9", "10"],
+      "colors": [
+        {
+          "name": "Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "Brown",
+          "color_hash": "#8B4513"
+        },
+        {
+          "name": "Grey",
+          "color_hash": "#808080"
+        },
+        {
+          "name": "White",
+          "color_hash": "#FFFFFF"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/9NlQDN3q50o"
+    },
+    {
+      "id": "6gj4fns7",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104094316307173446/2Q.png",
+      "name": "Men's Running Shoes",
+      "category": "men",
+      "description": "These men's running shoes are designed for high-performance running. They have a breathable mesh upper and a cushioned sole for all-day comfort. The shoes feature a lace-up closure and come in a range of sizes to fit any foot size. They are available in a variety of colors to match any running outfit.",
+      "price": 120,
+      "sizes": [
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "White",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Blue",
+          "color_hash": "#0000FF"
+        },
+        {
+          "name": "Green",
+          "color_hash": "#008000"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/vdX_OBUeHb4"
+    },
+    {
+      "id": "4hn7fj9s",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104093574850691232/9k.png",
+      "name": "High Top Sneakers",
+      "category": "men",
+      "description": "These high top sneakers are perfect for any casual outfit. They are designed with a durable canvas upper and a cushioned sole for all-day comfort. The sneakers have a lace-up closure and come in a range of sizes to fit any foot size. They are available in a variety of colors to match any casual outfit.",
+      "price": 90,
+      "sizes": ["8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12"],
+      "colors": [
+        {
+          "name": "Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "White",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Navy Blue",
+          "color_hash": "#000080"
+        },
+        {
+          "name": "Grey",
+          "color_hash": "#808080"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/0qGq3f5wof8"
+    },
+    {
+      "id": "9hs3gk2t",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104093417165815818/9k.png",
+      "name": "Leather Sandals",
+      "category": "women",
+      "description": "These leather sandals are perfect for any summer outfit. They are designed with a comfortable footbed and a sturdy sole for all-day wear. The sandals have an adjustable strap for a customized fit and come in a range of sizes to fit any foot size. They are available in a variety of colors to match any summer outfit.",
+      "price": 60,
+      "sizes": ["5", "6", "7", "8", "9", "10"],
+      "colors": [
+        {
+          "name": "Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "Brown",
+          "color_hash": "#8B4513"
+        },
+        {
+          "name": "White",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Beige",
+          "color_hash": "#F5F5DC"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/zziSdS9mzF0"
+    },
+    {
+      "id": "7nct6df4",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104092346846560346/9k.png",
+      "name": "Running Shoes",
+      "category": "men",
+      "description": "These running shoes are perfect for any workout. They are designed with a breathable upper and a cushioned sole for maximum comfort. The shoes have a lace-up closure and come in a range of sizes to fit any foot size. They are available in a variety of colors to match any workout outfit.",
+      "price": 120,
+      "sizes": ["7", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12"],
+      "colors": [
+        {
+          "name": "Black/White",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "Red/Black",
+          "color_hash": "#FF0000"
+        },
+        {
+          "name": "Blue/White",
+          "color_hash": "#0074D9"
+        },
+        {
+          "name": "Grey/White",
+          "color_hash": "#808080"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/5Oui8QnGy_8"
+    },
+    {
+      "id": "57hdfv32",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1104091172563066972/9k.png",
+      "name": "Black Leather Dress Shoes",
+      "category": "men",
+      "description": "These black leather dress shoes are perfect for any formal occasion. Made with high-quality leather, they are durable and stylish. The shoes have a classic design with a rounded toe and lace-up closure. They come in a range of sizes to fit any foot size.",
+      "price": 100,
+      "sizes": ["7", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12"],
+      "colors": [
+        {
+          "name": "Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "Brown",
+          "color_hash": "#A52A2A"
+        },
+        {
+          "name": "Tan",
+          "color_hash": "#D2B48C"
+        },
+        {
+          "name": "Burgundy",
+          "color_hash": "#800020"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/qX9FSZJu448"
+    },
+    {
+      "id": "32fnscjg3",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1103678552718717009/2Q.png",
+      "name": "Air Jordan 1",
+      "category": "men",
+      "description": "The Air Jordan 1 was first released in 1985 and quickly became a cultural icon, both on and off the court. The shoe was designed by Peter Moore and features the iconic 'wings' logo and the Nike Swoosh. The Air Jordan 1 has been re-released in countless colorways and collaborations over the years, solidifying its place in sneaker history.",
+      "price": 150,
+      "sizes": [
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5"
+      ],
+      "colors": [
+        {
+          "name": "Black/Red",
+          "color_hash": "#B40B1D"
+        },
+        {
+          "name": "White/Black",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Purple/Gold",
+          "color_hash": "#643FBC"
+        },
+        {
+          "name": "Green/Yellow",
+          "color_hash": "#D1E231"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/zpjrjKfHmVo"
+    },
+    {
+      "id": "n9dfgj0sa",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1103677695851778128/2Q.png",
+      "name": "Adidas Ultra Boost 21",
+      "category": "men",
+      "description": "The Adidas Ultra Boost 21 is a high-performance running shoe that features Adidas' latest Boost technology. The shoe's Primeknit upper is designed to provide a snug, sock-like fit, while the Boost midsole offers exceptional energy return with every stride. The Ultra Boost 21 is a popular choice for runners looking for both comfort and style.",
+      "price": 180,
+      "sizes": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5",
+        "13",
+        "13.5",
+        "14",
+        "14.5",
+        "15"
+      ],
+      "colors": [
+        {
+          "name": "Cloud White",
+          "color_hash": "#FFFFFF"
+        },
+        {
+          "name": "Core Black",
+          "color_hash": "#000000"
+        },
+        {
+          "name": "Halo Silver",
+          "color_hash": "#B0B2B5"
+        },
+        {
+          "name": "Screaming Orange",
+          "color_hash": "#FFAD4F"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/08oGOF-YbJ0"
+    },
+    {
+      "id": "j86fdwq8h",
+      "image": "https://cdn.discordapp.com/attachments/1055692229454352384/1103677574137262152/9k.png",
+      "name": "Nike Air Max 97",
+      "category": "women",
+      "description": "The Nike Air Max 97 is a sleek, streamlined shoe that was inspired by the bullet trains of Japan. With a full-length visible air unit, the Air Max 97 offers unparalleled comfort and cushioning. The shoe's futuristic design and metallic accents make it a popular choice for both runners and fashion enthusiasts alike.",
+      "price": 120,
+      "sizes": [
+        "5",
+        "5.5",
+        "6",
+        "6.5",
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5"
+      ],
+      "colors": [
+        {
+          "name": "Silver Bullet",
+          "color_hash": "#9187A9"
+        },
+        {
+          "name": "Metallic Gold",
+          "color_hash": "#F7B70B"
+        },
+        {
+          "name": "Metallic Rose Gold",
+          "color_hash": "#B76E79"
+        },
+        {
+          "name": "Metallic Red Bronze",
+          "color_hash": "#BA554A"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/BUEWV7vHLzk"
+    },
+    {
+      "id": "r32hfnjsa",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060446530523216/airforce_1.png",
+      "name": "Nike Air Force 1",
+      "category": "men",
+      "description": "Designed by Bruce Kilgore and introduced in 1982, the Air Force 1 was the first-ever basketball shoe to feature Nike Air technology, revolutionising the game and sneaker culture forever. Over three decades since its first release, the Air Force 1 remains true to its roots while earning its status as a fashion staple for seasons to come.",
+      "price": 30,
+      "sizes": [
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5"
+      ],
+      "colors": [
+        {
+          "name": "Just Brown",
+          "color_hash": "#AA6159"
+        },
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Sky Blue",
+          "color_hash": "#6389CB"
+        },
+        {
+          "name": "Somewhat Gold",
+          "color_hash": "#F2C758"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    },
+    {
+      "id": "kbavhew",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060447407132722/jordan_delta.png",
+      "name": "Zoom Freak 2",
+      "category": "men",
+      "description": "The Zoom Freak 2 was made for Giannis, but designed for every type of player. It takes the design of its predecessor to the next level by moving the Zoom Air from the heel to the forefoot and adding more cushioning for better responsiveness.",
+      "price": 98,
+      "sizes": ["8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5"],
+      "colors": [
+        {
+          "name": "Just Brown",
+          "color_hash": "#AA6159"
+        },
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Somewhat Gold",
+          "color_hash": "#F2C758"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    },
+    {
+      "id": "eiwhgurbthr",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060447793000498/kd13.png",
+      "name": "Jordan Delta",
+      "category": "run",
+      "description": "The Jordan Delta 2 offers a fresh, fearless take on the features you want: durability, comfort and an attitude that's Jordan to the core. We updated design lines and swapped out some components, but the idea is the same as the first Delta. The 2 still has that clashing combination of supportive and space age-like materials, with lots of different textures and heavy stitching to create a look that's both adventurous and iconic.",
+      "price": 30,
+      "sizes": [
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "12.5"
+      ],
+      "colors": [
+        {
+          "name": "Just Brown",
+          "color_hash": "#AA6159"
+        },
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Sky Blue",
+          "color_hash": "#6389CB"
+        },
+        {
+          "name": "Somewhat Gold",
+          "color_hash": "#F2C758"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    },
+    {
+      "id": "wihdbsnvdsd",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060448128532480/kdtrey.png",
+      "name": "Kyrie 7 EP",
+      "category": "men",
+      "description": "Kyrie Irving Is A Creative Force On And Off The Court. He Needs His Shoes To Keep Up With His Playmaking, But Also Sync With His Boundary-pushing Style And Ethos. The Kyrie 7 Helps Players At All Levels Take Advantage Of Their Quick First Step By Optimizi",
+      "price": 75,
+      "sizes": ["9.5", "10", "10.5", "11", "11.5", "12", "12.5"],
+      "colors": [
+        {
+          "name": "Just Brown",
+          "color_hash": "#AA6159"
+        },
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Sky Blue",
+          "color_hash": "#6389CB"
+        },
+        {
+          "name": "Somewhat Gold",
+          "color_hash": "#F2C758"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    },
+    {
+      "id": "uhfub4y",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060448489263194/kyrie.png",
+      "name": "Nike Air Zoom BB NXT",
+      "category": "basket",
+      "description": "We identified the best techniques in our design toolbox to deliver a shoe that would stay fresher for longer and that's strong enough to withstand high-level competition. We created 3D-printed models and combed over every detail to reduce weight and amplify sensation in the final design.",
+      "price": 30,
+      "sizes": ["8", "8.5", "9", "9.5", "10", "10.5", "11"],
+      "colors": [
+        {
+          "name": "Just Brown",
+          "color_hash": "#AA6159"
+        },
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Somewhat Gold",
+          "color_hash": "#F2C758"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    },
+    {
+      "id": "kfn3u4buoo",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060448803827712/nikeairzoom.png",
+      "name": "Nike Air Edge 270",
+      "category": "men",
+      "description": "Supplied by a premier sneaker marketplace dealing with unworn, already sold out, in demand rarities. Each product is rigorously inspected by experienced experts guaranteeing authenticity. Released in May 2019, the Air Edge 270 'Parachute Beige' redesigns the hybrid silhouette with outdoor-ready features and earthy tones.",
+      "price": 95.97,
+      "sizes": ["9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5"],
+      "colors": [
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Sky Blue",
+          "color_hash": "#6389CB"
+        },
+        {
+          "name": "Somewhat Gold",
+          "color_hash": "#F2C758"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    },
+    {
+      "id": "wfu43bh4",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060449126776842/zoomfreak.png",
+      "name": "KD13 EP",
+      "category": "men",
+      "description": "In the game's crucial moments, KD thrives. Defenders fear his unstoppable moves and opponents get shut down by his defensive prowess. The KD13 EP helps him play at an elite level with articulated, full-length cushioning. ",
+      "price": 30,
+      "sizes": ["8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5"],
+      "colors": [
+        {
+          "name": "Just Brown",
+          "color_hash": "#AA6159"
+        },
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Sky Blue",
+          "color_hash": "#6389CB"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    },
+    {
+      "id": "jnjvb77a",
+      "image": "https://cdn.discordapp.com/attachments/1055060226858029076/1055060554923917332/nikeairedge.png",
+      "name": "KD Trey 5 VII EP",
+      "category": "basket",
+      "description": "The Nike KD Trey 5 VII is quite the performer for a budget model. These mid-top basketball shoes have the two most important features any player is looking for—excellent traction and cushioning.",
+      "price": 56,
+      "sizes": ["9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5"],
+      "colors": [
+        {
+          "name": "Just Brown",
+          "color_hash": "#AA6159"
+        },
+        {
+          "name": "Mistique Black",
+          "color_hash": "#272425"
+        },
+        {
+          "name": "Sky Blue",
+          "color_hash": "#6389CB"
+        },
+        {
+          "name": "Somewhat Gold",
+          "color_hash": "#F2C758"
+        }
+      ],
+      "video": "https://www.youtube.com/embed/lvfB_p0IiHM"
+    }
+  ]
+}
